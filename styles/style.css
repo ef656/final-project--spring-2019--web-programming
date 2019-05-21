@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Corben|Play');
+
+body {
+  background-color: #ffff94;
+  padding-top: 16px;
+  padding-right: 56px;
+  padding-left: 56px;
+  line-height: 1.5em;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  font-family: 'Play', sans-serif;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: auto;
+  width: 100%;
+  padding-bottom: 1.5em;
+}
+.flex-container .box {
+  margin-left: auto;
+  margin-right: auto;
+  overflow: visible;
+  text-align: justify;
+  background-color: yellow;
+}
