@@ -6,6 +6,20 @@
 	<title>About Me</title>
 	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i|Open+Sans|Prata&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="styles/style.css">
+  <style>
+    .column {
+  float: left;
+  width: 20;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    }
+  </style>
 </head>
 <body>
 <div class="topnav">
@@ -38,6 +52,15 @@
       <p> Escarleth Fernandez is currently a pre-med student at Hunter College majoring in Media Studies with a concentration in Emerging Media and Special Honors Curriculum with a concentration in Chemistry. Her interests lie in a unique intersection of design, health, and immigration. In her free time, Escarleth likes to eat her way through New York.</p><br>
 
       <p>Resume available upon request.</p>
+      <div class="row">
+        <div class="column">
+          <p><a href="mailto:escarleth.fernandez5@gmail.com"><img src="images/icons/mail.png" alt="mail" width="50"></a></p>
+        </div>
+         <div class="column">
+          <p><a href="https://linkedin.com/in/escarleth-fernandez-899167144/"><img src="images/icons/in.png" alt="linkedin" width="50"></a></p>
+        </div>
+      </div>
+
     </div>
 		  </div>   
    </div>
