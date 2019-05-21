@@ -123,3 +123,26 @@ body {
 	font-style: italic;
 
 }
+
+.title {
+  line-height: 40px;
+  width: 300px;
+}
+.explanation
+{
+  width: 70%;
+  margin-left: auto;
+}
+
+p, h1{
+  font-family: 'Prata', serif;
+  font-weight: normal;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+p{
+  font-size: 14px;
+}
